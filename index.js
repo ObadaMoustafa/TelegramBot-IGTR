@@ -11,6 +11,7 @@ const { registerTrial } = require('./handlers/trial');
 const { registerPackages } = require('./handlers/packages');
 const { registerContact, contactMiddleware } = require('./handlers/contact');
 const { registerInstall } = require('./handlers/install');
+const { registerPc } = require('./handlers/pc');
 const { registerMaintenance } = require('./handlers/maintenance');
 
 bot.use(contactMiddleware);
@@ -22,6 +23,7 @@ registerTrial(bot);
 registerPackages(bot);
 registerContact(bot);
 registerInstall(bot);
+registerPc(bot);
 
 if (process.env.DEV_MODE === 'true') {
   registerMaintenance(bot);

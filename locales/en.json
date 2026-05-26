@@ -73,6 +73,25 @@
 
   "install.contact_steps": "📋 To get the detailed installation steps for your device, please contact our team and we'll send them to you right away 🙏",
 
+  "pc.choose": "💻 Choose the right app for your *Windows* PC:",
+  "pc.igate_btn": "🖥️ iGateTR",
+  "pc.smarters_btn": "📺 IPTV Smarters Player",
+
+  "pc.igate.download": "🖥️ *iGateTR App*\n\nDownload the app from the link below and install it on your PC\n\nPress Next when you're done 👇",
+  "pc.igate.download_btn": "⬇️ Download iGateTR",
+  "pc.igate.next": "✅ Installed, continue ▶️",
+  "pc.igate.login": "🔐 *Login to iGateTR*\n\nOpen the app and enter the following:\n\n📌 *NAME:* `iGateTR`\n👤 *USERNAME:* Your username\n🔑 *PASSWORD:* Your password\n\nDid the app work successfully?",
+
+  "pc.smarters.download": "📺 *IPTV Smarters Player*\n\nDownload the app from the link below and install it on your PC\n\nPress Next when you're done 👇",
+  "pc.smarters.download_btn": "⬇️ Download IPTV Smarters",
+  "pc.smarters.next": "✅ Installed, continue ▶️",
+  "pc.smarters.login": "🔐 *Login to IPTV Smarters*\n\nOpen the app and enter the following:\n\n📌 *Name:* `iGateTR`\n👤 *Username:* Your username\n🔑 *Password:* Your password\n🌐 *URL:* `http://nasaiptv.com:8080`\n\nDid the app work successfully?",
+
+  "pc.login.ok": "✅ It worked! 🎉",
+  "pc.login.fail": "❌ It didn't work",
+  "pc.no_account_btn": "🔑 I don't have an account yet",
+  "pc.no_account.message": "💡 No problem! You can get an account through:\n\n🎁 A free *24-hour* trial with no commitment\n💎 Or subscribe to one of our packages\n\nChoose what suits you 👇",
+
   "trial.message": "🎁 Of course you can try the service completely free with no commitment to subscribe if you're not satisfied..\n\nBut the most important step before starting the trial is *downloading the app* on your device 📲",
   "trial.already_installed": "✅ I already downloaded the app",
   "trial.show_download": "⬇️ Show me how to download",
@@ -80,8 +99,8 @@
   "trial.error": "❌ An error occurred while sending your request. Please try again later.",
 
   "packages.message": "💎 Wherever you are in the world..\n\nHere are the available offers, tap the one you're interested in 👇",
-  "packages.yearly": "📅 Annual Subscription — 1450 Turkish Lira",
-  "packages.two_years": "🎁 2-Year Subscription + 3 Months Free — 2900 Turkish Lira",
+  "packages.yearly": "📅 Annual Subscription — 29 Euro (or equivalent in Turkish Lira)",
+  "packages.two_years": "🎁 2-Year Subscription + 3 Months Free — 58 Euro (or equivalent in Turkish Lira)",
   "packages.success": "✅ *Your request was sent successfully!*\n\nWe've forwarded your request to our team and they will contact you as soon as possible 🙏\n\nMeanwhile, follow the app download steps:",
   "packages.error": "❌ An error occurred while sending your request. Please try again later.",
 

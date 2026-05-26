@@ -98,10 +98,11 @@ function registerDownload(bot) {
   bot.action('download_computer', async (ctx) => {
     const lang = getLang(ctx.from.id) || 'ar';
     ctx.answerCbQuery();
-    return editWithTyping(ctx, t('install.contact_steps', lang), {
+    return editWithTyping(ctx, t('pc.choose', lang), {
       parse_mode: 'Markdown',
       ...Markup.inlineKeyboard([
-        [Markup.button.callback(t('main_menu.contact', lang), 'contact_start')],
+        [Markup.button.callback(t('pc.igate_btn', lang), 'pc_igate')],
+        [Markup.button.callback(t('pc.smarters_btn', lang), 'pc_smarters')],
         [Markup.button.callback(t('back.previous', lang), 'download_start')],
       ]),
     });
